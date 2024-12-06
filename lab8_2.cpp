@@ -5,6 +5,33 @@ using namespace std;
 
 //[Missing Code 1] Write definition of the function findGrade() here.
 
+char findGrade(double s){
+	char g;
+	if(s>90){
+		g ='A';
+	}
+	else if(s>75){
+		g ='B';
+	}
+	else if(s>60){
+		g ='C';
+	}
+	else if(s>45){
+		g ='D';
+	}
+	else{
+		g='F';
+	}
+	return g;
+}
+
+
+
+
+
+
+
+
 int main(){
 	//Input the number of students
 	int N,i = 0;
